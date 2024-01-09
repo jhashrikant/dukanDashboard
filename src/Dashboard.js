@@ -141,7 +141,7 @@ const Dashboard = () => {
                             </div>
                         </div>
 
-                        <table className='w-full text-left border-collapse max-sm:table-fixed max-sm:w-full'>
+                        <table className='mt-4 w-full text-left border-collapse max-sm:table-fixed max-sm:w-full'>
                             <thead className='max-sm:w-screen'>
                                 <tr className='bg-[#F2F2F2] '>
                                     <th className='text-text py-2.5 px-3 font-medium bg-[#F2F2F2] rounded-l text-sm max-sm:text-[8.5px] max-sm:px-0 max-sm:pl-1 max-sm:py-1.5 max-sm:w-10'>Order ID</th>
