@@ -82,15 +82,15 @@ const Dashboard = () => {
                     <section className=' gap-5 flex justify-between items-start'>
                         <div className='bg2 card1'>
                             <aside className=' flex  items-center gap-2'>
-                                <h2>Next payout</h2>
-                                <img src={questionmark} alt='questionmark' />
+                                <h2 className='text-white'>Next payout</h2>
+                                <img className='text-white' src={questionmark} alt='questionmark' />
                             </aside>
 
-                            <div className=' flex justify-between items-center gap-2'>
-                                <h1 className='font-medium text-3xl'>2312.23</h1>
-                                <p>23 orders</p>
+                            <div className='pb-8 flex justify-between items-center gap-2'>
+                                <h1 className='text-white font-medium text-3xl'>2312.23</h1>
+                                <p className='text-white underline'>23 orders</p>
                             </div>
-                            <aside className='bg flex justify-between items-center gap-2'>
+                            <aside className='py-2 px-6  text-white bg flex justify-between items-center gap-2'>
                                 <h2>Next payout date</h2>
                                 <date>Today 4:pm</date>
                             </aside>
